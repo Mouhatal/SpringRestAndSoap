@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "sn.isi.m2gl"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "AppRest",
+    "packageName": "sn.isi.m2gl",
+    "packageFolder": "sn/isi/m2gl",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NGFjY2YyMjVhN2FiMTVlZGMzN2VmNmNiZmE4OWQxZTgwOGI5MTZmYjQ2NGFjZTA5ZDc5OTQ1MDIxODc5ZDFkNGZlYzRlMTc5NTEzMTUwMTA3NDZlZmRhMDVkMTQwOGQ3ZjAwMWRmNmIzODkxODE0MDZmYmIzZDA0ZmU4MzJjY2M=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1612810273368,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1612820713000
+  }
+}

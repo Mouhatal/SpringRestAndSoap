@@ -1,0 +1,25 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://ws.groupeisi.com">
+
+    <xs:element name="getCovid19InfoRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="input" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCovid19InfoResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nbreCas" type="xs:integer" />
+                <xs:element name="nbreCasPositif" type="xs:integer" />
+                <xs:element name="nbreCasNegatif" type="xs:integer" />
+                <xs:element name="nbreDeces" type="xs:integer" />
+                <xs:element name="rnbreGueris" type="xs:integer" />
+                <xs:element name="datejoure" type="xs:date" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

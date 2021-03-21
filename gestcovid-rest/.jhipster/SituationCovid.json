@@ -1,0 +1,41 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "AppRest",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "nbreCas",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbreCasPositif",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbreCasNegatif",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbreDeces",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbreGueris",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "changelogDate": "20210208214513",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "situation_covid",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "AppRest"
+}
