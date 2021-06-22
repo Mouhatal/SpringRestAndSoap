@@ -8,13 +8,13 @@
 # Obtain token
 * Post : http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/token
 
-* Bady :
-client_id:jhipster-registry
-grant_type:password
-client_secret:jhipster-registry
-scope:openid
-username:admin
-password:admin
+* Body :
+ - client_id:jhipster-registry
+ - grant_type:password
+ - client_secret:jhipster-registry
+ - scope:openid
+ - username:admin
+ - password:admin
 
 After post copy value of access_token and past the value in
 ../gestcovid-soap/src/main/java/sn/isi/m2gl/web/endpoints/SituationCovidEndpoint.java line 31 String acces_token
